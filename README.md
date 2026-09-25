@@ -22,51 +22,6 @@ O arquivo `Mini_cursoBI.pbix` contém uma página com os seguintes elementos:
 | `Cadastro Produtos.xlsx` | Cadastro de produtos, categorias e valores unitários. |
 | `Lojas.pdf` | Material de referência das lojas utilizadas na análise regional. |
 
-## Como mostrar o BI no GitHub
-
-### Opção recomendada: publicar imagens do dashboard
-
-Exporte uma imagem ou captura de cada página no Power BI e salve os arquivos, por exemplo, em `docs/imagens/`:
-
-```text
-docs/
-└── imagens/
-    ├── dashboard-visao-geral.png
-    └── dashboard-detalhamento.png
-```
-
-Depois, inclua as imagens no README:
-
-```markdown
-## Prévia
-
-![Visão geral do dashboard](docs/imagens/dashboard-visao-geral.png)
-```
-
-Essa é a forma mais simples e estável de apresentar o resultado no GitHub. Para boa leitura, use imagens em resolução adequada e, se necessário, adicione uma imagem por página ou por seção do relatório.
-
-### Opção interativa: Power BI Service
-
-Publique o relatório no **Power BI Service** e coloque no README um link para o relatório ou para um vídeo demonstrativo. Um relatório incorporado só funcionará para pessoas que tenham as permissões, licença e acesso ao ambiente do Power BI.
-
-Não coloque no repositório um link de incorporação que exponha dados internos. A opção **Publicar na Web** torna o relatório acessível publicamente e deve ser usada somente com dados que possam ser divulgados sem restrições.
-
-Exemplo de link no README:
-
-```markdown
-[Abrir dashboard interativo no Power BI](COLE_AQUI_O_LINK_DO_POWER_BI)
-```
-
-### Opção complementar: vídeo ou GIF
-
-Grave uma navegação curta pelo dashboard e adicione o arquivo ao repositório ou a uma release. O README pode apontar para ele:
-
-```markdown
-[Assistir à demonstração do dashboard](docs/demo/dashboard.mp4)
-```
-
-Para um portfólio, a combinação mais eficaz costuma ser: **imagem estática no README + link interativo protegido + arquivo `.pbix` para download**.
-
 ## Estrutura do repositório
 
 ```text
